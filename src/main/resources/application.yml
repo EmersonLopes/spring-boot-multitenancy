@@ -1,0 +1,15 @@
+tenants:
+  datasources:
+    F01:
+      jdbcUrl: jdbc:sqlserver://192.168.56.1;databaseName=F01
+      driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      username: SA
+      password: 1234
+    F02:
+      jdbcUrl: jdbc:sqlserver://192.168.56.1;databaseName=F02
+      driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      username: SA
+      password: 1234
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServer2012Dialect
